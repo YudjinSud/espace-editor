@@ -34,7 +34,7 @@ Tu te concentreras uniquement sur la partie frontend, en intéragissant avec un 
 
 ### Fonctionalités de base (must have)
 
-- [ ] modéliser la données (quel type ou structure adopter ?)
+- [ ] modéliser la donnée (quel type ou structure adopter ?)
 - [ ] ajouter un niveau ou un espace
 - [ ] editer le nom d'un niveau ou d'un espace
 - [ ] supprimer un niveau ou un espace
@@ -45,7 +45,7 @@ Tu pourras proposer une solution pour réordonner les espaces et les niveaux, en
 
 - [ ] réordonner les espaces au sein d'un niveau
 - [ ] réordonner les niveaux entre eux
-- [ ] repositionner un espace d'un autre niveau
+- [ ] repositionner un espace dans un autre niveau
 
 ### Stack
 
@@ -61,5 +61,5 @@ Tu pourras proposer une solution pour réordonner les espaces et les niveaux, en
 - Quand tu as finis ta tâche, partage nous le lien vers ton repo github.
 - Tu peux également déployer ton application gratuitement sur render (static site) pour nous permettre de tester ta feature live.
 
-Bonne chance et à très vite pour la session de peer programming avec Lionel.
+Bonne chance et à très vite pour la session de peer programming avec Lionel !
 
