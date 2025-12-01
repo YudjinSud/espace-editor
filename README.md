@@ -32,16 +32,16 @@ Tu te concentreras uniquement sur la partie frontend, en intéragissant avec un 
 - les `id` sont des string de 4 chars (alphabet base64)
 - un espace appartient forcément à un seul et unique niveau
 
-### Fonctionalités de base (must have)
+### Fonctionalités de base
 
 - [ ] modéliser la donnée (quel type ou structure adopter ?)
 - [ ] ajouter un niveau ou un espace
 - [ ] editer le nom d'un niveau ou d'un espace
 - [ ] supprimer un niveau ou un espace
 
-### Fonctionalités avancées (nice to have)
+### Fonctionalités avancées
 
-Tu pourras proposer une solution pour réordonner les espaces et les niveaux, en choisissant le pattern UX/UI que tu juges le plus adapté et efficace :
+Propose une solution pour réordonner les espaces et les niveaux, en choisissant le pattern UX/UI que tu juges le plus adapté et efficace :
 
 - [ ] réordonner les espaces au sein d'un niveau
 - [ ] réordonner les niveaux entre eux
