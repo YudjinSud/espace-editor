@@ -16,7 +16,7 @@ Le diagnostiqueur commence systématiquement par décrire la configuration du lo
 
 ## Sujet
 
-Dans cette tâche, nous te proposons de maquetter l'interface de gestion des niveaux et des espaces d'un logement dans Auditoo, en t'appuyant sur les designs figma de Gauthier et en respectant les élements donnés ci-après.
+Dans cette tâche, nous te proposons de maquetter l'interface de gestion des niveaux et des espaces d'un logement dans Auditoo, en t'appuyant sur les designs figma et en respectant les élements donnés ci-après.
 
 Tu te concentreras uniquement sur la partie frontend, en intéragissant avec un modèle de donnée local / en mémoire. Nous aborderons les questions de data sync lors de l'échange.
 
