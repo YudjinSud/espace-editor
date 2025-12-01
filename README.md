@@ -22,7 +22,7 @@ Tu te concentreras uniquement sur la partie frontend, en intéragissant avec un 
 
 ### Design
 
-- selon [les designs](http://figma.com)
+- selon [les designs](https://www.figma.com/design/P6ERrCTkPIqfAMnxOSikoC/Home-Task---Full-Stack?node-id=0-1&t=GwlpViyzI6bI8GJQ-1)
 - notre web app est utilisée uniquement sur mobile et navigateur chrome
 
 ### Modèle de données
