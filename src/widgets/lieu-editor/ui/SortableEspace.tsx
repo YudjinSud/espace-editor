@@ -1,0 +1,41 @@
+import { useSortable } from "@dnd-kit/react/sortable";
+import { type Element, ElementItem } from "@/entities/element";
+
+type SortableEspaceProps = {
+    element: Element;
+    index: number;
+    niveauId: string;
+    onEdit?: (element: Element) => void;
+    onDelete?: (element: Element) => void;
+};
+
+export function SortableEspace({
+    element,
+    index,
+    niveauId,
+    onEdit,
+    onDelete,
+}: SortableEspaceProps) {
+    const { ref, isDragging } = useSortable({
+        id: element.id,
+        index,
+        type: "espace",
+        accept: "espace",
+        group: niveauId,
+    });
+
+    return (
+        <div
+            ref={ref}
+            style={{
+                opacity: isDragging ? 0.4 : 1,
+            }}
+        >
+            <ElementItem
+                element={element}
+                onEdit={onEdit}
+                onDelete={onDelete}
+            />
+        </div>
+    );
+}
