@@ -1,4 +1,2 @@
 @import "tailwindcss";
-@import "./null.css" layer(base);
-
-@source "../src/**/*.{ts,tsx}";
+@import "./null.css";

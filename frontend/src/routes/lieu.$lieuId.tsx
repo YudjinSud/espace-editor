@@ -3,13 +3,15 @@ import { Toaster } from "sonner";
 import { ElementsProvider } from "@/app/providers";
 import { LieuEditor } from "@/widgets/lieu-editor";
 
-export const Route = createFileRoute("/lieu")({
+export const Route = createFileRoute("/lieu/$lieuId")({
     component: LieuPage,
 });
 
 function LieuPage() {
+    const { lieuId } = Route.useParams();
+
     return (
-        <ElementsProvider>
+        <ElementsProvider lieuId={lieuId}>
             <div className="bg-white relative">
                 <LieuEditor />
                 <Toaster

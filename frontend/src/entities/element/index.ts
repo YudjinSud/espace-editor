@@ -1,3 +1,4 @@
+export { createElementsApi } from "./model/api";
 export { ElementsStoreContext, useElementsStore } from "./model/context";
 export { mockElementsApi } from "./model/mock";
 export type { ElementsApi, ElementsStore } from "./model/store";

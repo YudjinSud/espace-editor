@@ -1,19 +1,27 @@
-import type { ReactNode } from "react";
+import { type ReactNode, useRef } from "react";
 import {
+    createElementsApi,
     createElementsStore,
     ElementsStoreContext,
-    mockElementsApi,
+    type ElementsStore,
 } from "@/entities/element";
-
-const elementsStore = createElementsStore(mockElementsApi);
+import type { StoreApi } from "zustand";
 
 type ElementsProviderProps = {
+    lieuId: string;
     children: ReactNode;
 };
 
-export function ElementsProvider({ children }: ElementsProviderProps) {
+export function ElementsProvider({ lieuId, children }: ElementsProviderProps) {
+    const storeRef = useRef<StoreApi<ElementsStore> | null>(null);
+
+    if (!storeRef.current) {
+        const api = createElementsApi(lieuId);
+        storeRef.current = createElementsStore(api);
+    }
+
     return (
-        <ElementsStoreContext.Provider value={elementsStore}>
+        <ElementsStoreContext.Provider value={storeRef.current}>
             {children}
         </ElementsStoreContext.Provider>
     );

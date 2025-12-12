@@ -1,6 +1,4 @@
-/* CSS Reset - null.css */
-
-*,
+CSS Reset - null.css *,
 *::before,
 *::after {
   box-sizing: border-box;
